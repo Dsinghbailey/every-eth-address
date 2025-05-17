@@ -11,7 +11,7 @@
     "new-component": "new-component"
   },
   "keywords": [],
-  "author": "nolen (eieio)",
+  "author": "darianb, nolen (eieio)",
   "license": "ISC",
   "dependencies": {
     "eslint": "^8.57.1",

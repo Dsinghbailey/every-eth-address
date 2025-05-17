@@ -130,7 +130,7 @@ function Header() {
           <SocialLink href="https://github.com/darianbailey/every-eth-address">
             <Code />
           </SocialLink>
-          <SocialLink href="https://twitter.com/itseieio">
+          <SocialLink href="https://twitter.com/darianbailey14">
             <Twitter />
           </SocialLink>
         </Socials>
