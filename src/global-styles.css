@@ -1,0 +1,101 @@
+/*
+  Stolen from Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  overscroll-behavior: none;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+
+  /* Ethereum Foundation Color Scheme */
+  --eth-black: #1B1B1B;
+  --eth-white: #FFFFFF;
+  --eth-grey-light: #F2F2F2;
+  --eth-grey: #CCCCCC;
+  --eth-grey-dark: #828282;
+  --eth-primary: #3C3C3D;
+  --eth-secondary: #6F6F6F;
+
+  /* Keep legacy variables but remap to Ethereum palette */
+  --slate-900: var(--eth-black);
+  --slate-800: var(--eth-primary);
+  --slate-700: var(--eth-secondary);
+  --slate-500: var(--eth-grey-dark);
+  --slate-400: var(--eth-grey);
+  --slate-300: var(--eth-grey-light);
+  --slate-200: var(--eth-grey-light);
+  --slate-100: var(--eth-white);
+  --slate-50: var(--eth-white);
+
+  --neutral-900: var(--eth-black);
+  --neutral-800: var(--eth-primary);
+  --neutral-700: var(--eth-secondary);
+  --neutral-600: var(--eth-secondary);
+  --neutral-500: var(--eth-grey-dark);
+  --neutral-400: var(--eth-grey);
+  --neutral-300: var(--eth-grey-light);
+
+  /* Accent colors */
+  --yellow-100: #fff6dd;
+  --yellow-200: #fff0cc;
+  --yellow-300: #FFE1A0;
+  --yellow-400: #FFD050;
+  --yellow-500: #FFCC00;
+  --yellow-600: #E6B800;
+  --yellow-700: #B38F00;
+  --yellow-800: #806600;
+  --yellow-950: #4D3D00;
+
+  --green-600: #2BD782;
+  --green-900: #1A804E;
+
+  --blue-900: #1E65F3;
+  --sky-950: #11427D;
+
+  color: var(--eth-black);
+
+  --border-color: var(--eth-grey);
+  --address-color: var(--eth-black);
+
+  background-color: var(--eth-white);
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
