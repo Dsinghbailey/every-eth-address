@@ -127,7 +127,7 @@ function Header() {
       </TitleSubhead>
       <SelfPromotion>
         <Socials>
-          <SocialLink href="https://github.com/darianbailey/every-eth-address">
+          <SocialLink href="https://github.com/dsinghbailey/every-eth-address">
             <Code />
           </SocialLink>
           <SocialLink href="https://twitter.com/darianbailey14">
